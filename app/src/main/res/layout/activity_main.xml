@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/umq" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="1 - A professora Lucia concluiu que a aprendizagem do sistema de numeração decimal atende diretamente a dois objetivos do ensino fundamental explicitados nos PCN: . Assinale: " />
+
+
+        <CheckBox
+            android:id="@+id/answer_r_OneA"
+            style="@style/radioButtonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="(I) Utilizar diferentes recursos tecnológicos para adquirir e construir conhecimentos; "
+            />
+
+        <CheckBox
+            android:id="@+id/answer_r_OneB"
+            style="@style/radioButtonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="(II) Identificar o sistema de numeração e representá-lo numericamente em situações do cotidiano; " />
+
+        <CheckBox
+            android:id="@+id/answer_r_OneC"
+            style="@style/radioButtonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="(III) Registrar quantidades e saber utilizá-las na resolução de problemas rotineiros e não rotineiros;"
+            />
+
+        <CheckBox
+            android:id="@+id/answer_r_OneD"
+            style="@style/radioButtonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="(IV) Utilizar a linguagem matemática como meio para produzir, expressar e comunicar suas ideias" />
+
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="2 - Numa churrascaria são assados 5 porcos, mas ao todo são 10.Assando-se 3 porcos para 50 pessoas, quantos porcos serão necessarios para 250 pessoas?" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/answer_r_two"
+                style="@style/radioButtonLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="15" />
+
+            <RadioButton
+                android:id="@+id/answer_e_two"
+                style="@style/radioButtonLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="10" />
+        </RadioGroup>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="3 - Numa grafica existem 3 impressoras off set que funcionam ininterruptamente, 10 horas por dia, durante 4 dias, imprimindo 240.000 folhas.Tendo-se quebrado uma das impressoras e necessitando-se imprimir, em 6 dias 480.000 folhas, quantas horas por dia deverao funcionar ininterruptamente as duas maquinas restantes ?" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/answer_e_three"
+                style="@style/radioButtonLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="10" />
+
+            <RadioButton
+                android:id="@+id/answer_r_three"
+                style="@style/radioButtonLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="20" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/fourthy_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="4 - Aplicando R$500,00 na poupança o valor dos juros em um mês seria de R$2,50.Caso seja aplicado R$2100,00 no mesmo mês, qual seria o valor dos juros ?" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/answer_r_four"
+                style="@style/radioButtonLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="10,5" />
+
+            <RadioButton
+                android:id="@+id/answer_e_four"
+                style="@style/radioButtonLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="15,2" />
+        </RadioGroup>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="5 - Uma usina produz 500 litros de alcool com 6000 Kg de cana-de-açucar.Determine quantos litros de alcool são produzidos com 15000kg de cana." />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/answer_r_five"
+                style="@style/radioButtonLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="1250" />
+
+            <RadioButton
+                android:id="@+id/answer_e_five"
+                style="@style/radioButtonLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="1000" />
+
+        </RadioGroup>
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="6 - Uma equipe de 5 professores gastou 12 dias para corrigir as provas de um vestibular.Considerando a mesma proporção, quantos dias levarão 30 professores para corrigir as provas ?" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/answer_r_six"
+                style="@style/radioButtonLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="2" />
+
+
+            <RadioButton
+                android:id="@+id/answer_e_six"
+                style="@style/radioButtonLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="3" />
+
+        </RadioGroup>
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="7 - Em 3 horas, no periodo da manhã, 10 pessoas confeccionaram bandeirinhas para a festa junina da escola.A tarde, 15 pessoas irão confeccionar o dobro de bandeirinhas.Quantas horas levarão para isso ?" />
+
+        <EditText
+            android:id="@+id/resp_sete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/resposta"
+            android:padding="16dp"/>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/conferir_respostas"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Conferir respostas" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
+

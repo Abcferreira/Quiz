@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="pergunta_um">1 - Em uma loja de roupas são vendidas por dia 1500 roupas em 7 dias.Em quantos dias serão vendidas 200 roupas ?</string>
+    <string name="pergunta_dois">2 - Numa churrascaria são assados 5 porcos, mas ao todo são 10.Assando-se 3 porcos para 50 pessoas, quantos porcos serão necessarios para 250 pessoas?</string>
+    <string name="pergunta_tres">3 - Numa grafica existem 3 impressoras off set que funcionam ininterruptamente, 10 horas por dia, durante 4 dias, imprimindo 240.000 folhas.Tendo-se quebrado uma das impressoras e necessitando-se imprimir, em 6 dias 480.000 folhas, quantas horas por dia deverao funcionar ininterruptamente as duas maquinas restantes ?</string>
+    <string name="pergunta_quatro">4 - Aplicando R$500,00 na poupança o valor dos juros em um mês seria de R$2,50.Caso seja aplicado R$2100,00 no mesmo mês, qual seria o valor dos juros ?</string>
+    <string name="pergunta_cinco">5 - Uma usina produz 500 litros de alcool com 6000 Kg de cana-de-açucar.Determine quantos litros de alcool são produzidos com 15000kg de cana.</string>
+    <string name="pergunta_seis">6 - Uma equipe de 5 professores gastou 12 dias para corrigir as provas de um vestibular.Considerando a mesma proporção, quantos dias levarão 30 professores para corrigir as provas ?</string>
+    <string name="pergunta_sete">7 - Em uma panificadora são produzidos 90 pães de 15 gramas cada um.Caso queira produzir pães de 10 gramas, quantos iremos obter?</string>
+    <string name="pergunta_oito">8 - Um muro de 12 metros foi construido utilizando 2160 tijolos.Caso queira construir um muro de 30 metros nasmesmas condições do anterior, quantos tijolos serão necessarios ?</string>
+    <string name="pergunta_nove">9 - Usando um ferro eletrico 40 min por dia, durante 15 dias, o consumo de energia sera de 8 kWh.Qual sera o consumo do mesmo ferro eletrico se ele for usado 50 min por dia, durante 20 dias?</string>
+    <string name="pergunta_dez">10 - Em 3 horas, no periodo da manhã, 10 pessoas confeccionaram bandeirinhas para a festa junina da escola.A tarde, 15 pessoas irão confeccionar o dobro de bandeirinhas.Quanto tempo levarão para isso ?</string>
+    <string name="resposta">Digite aqui sua resposta</string>
+</resources>
